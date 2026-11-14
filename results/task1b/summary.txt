@@ -1,0 +1,15 @@
+Image size (w x h): 800 x 600
+Filters: kernel=5, gaussian sigma=1.2
+  Gaussian noise (sigma=20)  Noisy     MSE=   393.23  PSNR= 22.18 dB
+  Gaussian noise (sigma=20)  Box       MSE=    23.57  PSNR= 34.41 dB
+  Gaussian noise (sigma=20)  Gaussian  MSE=    28.76  PSNR= 33.54 dB
+  Gaussian noise (sigma=20)  Median    MSE=    31.21  PSNR= 33.19 dB
+  Salt & pepper (5%)         Noisy     MSE=   937.94  PSNR= 18.41 dB
+  Salt & pepper (5%)         Box       MSE=    53.79  PSNR= 30.82 dB
+  Salt & pepper (5%)         Gaussian  MSE=    70.34  PSNR= 29.66 dB
+  Salt & pepper (5%)         Median    MSE=     3.13  PSNR= 43.17 dB
+Canny edge pixels: (80,160)=1.293%, (30,90)=1.862%
+SIFT ratio test = 0.75
+  keypoints: scene1=282, scene2=254, other=92
+  good matches (same scene)  = 10
+  good matches (unrelated)   = 3
