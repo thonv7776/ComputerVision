@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 
 COLS, ROWS = 9, 6      # INNER corners (a 10x7-square board has 9x6 inner corners)
-SQUARE_MM = 25.0       # side of one square; measure it with a ruler after printing
+SQUARE_MM = 18.0       # side of one square; measure it with a ruler after printing
 
 
 def find_corners(folder, cols=COLS, rows=ROWS):
